@@ -13,6 +13,9 @@ A collection of technical workshops (with instructor materials) which I have fac
 * **WEB DEVELOPMENT WORKSHOP**
     * Facilitated as one of the instructors that thought the stuednts the basics of CSS (Cascading Style Sheets).
 
+## Additional Info
+Each directories has its own Instructor PPT files and materials used.
+
 ## Tip
 **If you liked my hard work, I would really appreciate if you can buy some coffee for me.**
 
