@@ -1,0 +1,16 @@
+<html>
+
+<body>
+	<table id="save"></table>
+	<a href="regform.html">Back to form</a>
+	<script>
+		const list = document.getElementById('save')
+		new URLSearchParams(window.location.search).forEach
+			((value, name) => {
+				list.append(`${name}: ${value}`)
+				list.append(document.createElement('br'))
+			})
+	</script>
+</body>
+
+</html>

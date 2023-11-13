@@ -1,0 +1,120 @@
+<html>
+
+<head>
+	<style>
+		body {
+			background-image: url("bg.jpg");
+			background-size: cover;
+			opacity: 1;
+		}
+
+		div {
+			width: 500px;
+			margin: auto;
+			border: 2px solid black;
+			text-align: center;
+			font-family: arial;
+			font-variant: small-caps;
+		}
+
+		a {
+			color: black;
+		}
+
+		button {
+			background-color: black;
+			color: white;
+			border: 2px solid black;
+			border-radius: 25px;
+		}
+	</style>
+</head>
+
+<body>
+	<div width="100" style="background-color:blue">
+		<img src="image.png" alt="There is an error" style="width:80px;height:80px;vertical-align:middle;">
+		<h1 style="display:inline;color:white;">Registration Form</h1>
+	</div>
+
+	<div width="100%" style="background-color:white;" encytype="mutlipart/form-data">
+		<form action="savedata.html" method="GET">
+			<table>
+				<tr>
+					<td>Name*: </td>
+					<td>
+						<input type="text" placeholder="Last Name, First Name" name="Name: " required>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Age*: </td>
+					<td>
+						<input type="number" min="0" max="100" step="1" name="Age: " required>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Birthday: </td>
+					<td>
+						<input type="date" name="Birthday: ">
+					</td>
+				</tr>
+
+				<tr>
+					<td>Email: </td>
+					<td>
+						<input type="email" name="Email">
+					</td>
+				</tr>
+
+				<tr>
+					<td>Password: </td>
+					<td>
+						<input type="password" min="7" max="10" name="Password">
+					</td>
+				</tr>
+
+				<tr>
+					<td>ISP: </td>
+					<td>
+						<select name="ISP">
+							<option value="Globe" selected>Globe</option>
+							<option value="PLDT">PLDT</option>
+							<option value="Smart">Smart</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Speed: </td>
+					<td>
+						<input type="radio" value="5Mbps" name="ISP">5Mbps<br>
+						<input type="radio" value="10Mbps" name="ISP">10Mbps<br>
+						<input type="radio" value="20Mbps" name="ISP">20Mbps<br>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Scanned File: </td>
+					<td>
+						<input type="file" name="Scanned File">
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<button type="reset" onclick="alert('Are you sure you want to reset the form')">Cancel</button>
+						<button type="submit">Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+	<div style="background-color:tomato">
+		<a href="termandcondi.html" target="_self">Terms and Conditions</a>
+	</div>
+
+</body>
+
+</html>
