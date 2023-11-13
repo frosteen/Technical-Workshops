@@ -1,5 +1,5 @@
 # Technical-Workshops
-A collection of technical workshops which I have facilitated during my college days.
+A collection of technical workshops (with instructor materials) which I have facilitated during my college days.
 
 ## Background
 * BASIC HTML AND CSS
